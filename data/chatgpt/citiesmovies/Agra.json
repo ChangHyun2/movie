@@ -1,0 +1,39 @@
+{
+  "id": "bf4ac37f-9934-4214-a9b3-26bc6ec3c049",
+  "rank": 66,
+  "name": "Agra",
+  "country": "India",
+  "tourists": 2.4,
+  "movies": [
+    {
+      "id": "fa9cf719-d414-402e-9e3e-1bca00ab36e0",
+      "title": "P.K.",
+      "year": 2014
+    },
+    {
+      "id": "f5b9d6fb-8c53-4f05-90a1-138a44822b6c",
+      "title": "Shuddh Desi Romance",
+      "year": 2013
+    },
+    {
+      "id": "6ff9d41b-5b02-4737-a77d-7192c55c69a0",
+      "title": "Batti Gul Meter Chalu",
+      "year": 2018
+    },
+    {
+      "id": "a0684d90-7c1f-45d4-a6ab-ac0e874f0c9a",
+      "title": "Yamla Pagla Deewana 2",
+      "year": 2013
+    },
+    {
+      "id": "a8d6ba77-aad3-4a37-9ce0-c630ff6b111d",
+      "title": "Happy Bhag Jayegi",
+      "year": 2016
+    },
+    {
+      "id": "061a5436-4d7e-484a-94ca-d42f184d57dd",
+      "title": "Baadmash Company",
+      "year": 2010
+    }
+  ]
+}

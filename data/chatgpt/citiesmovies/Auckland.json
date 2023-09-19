@@ -1,0 +1,149 @@
+{
+  "id": "a56b5cd8-3c74-4f16-9426-320001577d5c",
+  "rank": 81,
+  "name": "Auckland",
+  "country": "New Zealand",
+  "tourists": 2,
+  "movies": [
+    {
+      "id": "31054af1-b774-4bcb-a786-061c9656ce70",
+      "title": "Giselle",
+      "year": 2013
+    },
+    {
+      "id": "09b9e333-f505-45f8-befe-2cceaeb44fa9",
+      "title": "The Dead Lands",
+      "year": 2014
+    },
+    {
+      "id": "d83dcef2-7083-4c34-a290-cda3d938c0e9",
+      "title": "The Dark Horse",
+      "year": 2014
+    },
+    {
+      "id": "3218d0db-d281-4df4-bf4a-980ab1ae3670",
+      "title": "Hibiscus & Ruthless",
+      "year": 2018
+    },
+    {
+      "id": "3fa5b7e0-844f-4dce-b5db-ea90662b947b",
+      "title": "Pork Pie",
+      "year": 2017
+    },
+    {
+      "id": "463099bc-ecb2-47cf-badd-19235b4cc1e3",
+      "title": "The Rehearsal",
+      "year": 2016
+    },
+    {
+      "id": "a0587259-508d-46bb-b94f-8b95d5b89b1e",
+      "title": "The Breaker Upperers",
+      "year": 2018
+    },
+    {
+      "id": "1e9999e6-a191-43be-bed0-0357b25ad8e7",
+      "title": "Hunt for the Wilderpeople",
+      "year": 2016
+    },
+    {
+      "id": "96d27da2-26db-4efe-a514-aacc6f5fec6a",
+      "title": "Mega Time Squad",
+      "year": 2018
+    },
+    {
+      "id": "9f0abeb7-8684-4a15-928a-9cedd9877260",
+      "title": "The Changeover",
+      "year": 2017
+    },
+    {
+      "id": "c0c9f068-9db5-4c32-9c6c-80abb8c9db7d",
+      "title": "Mahana",
+      "year": 2016
+    },
+    {
+      "id": "b1190232-d3ec-416a-b5b5-0ce021aa0b65",
+      "title": "One Thousand Ropes",
+      "year": 2016
+    },
+    {
+      "id": "d4e692ae-46a5-4771-8f9d-8cb6d00532ae",
+      "title": "The Inland Road",
+      "year": 2017
+    },
+    {
+      "id": "9466ed45-28bf-4ba7-bdc5-1e1c95a200b3",
+      "title": "The Stolen",
+      "year": 2017
+    },
+    {
+      "id": "c0158375-f560-4671-bc7d-da7c57eb3f79",
+      "title": "The Most Fun You Can Have Dying",
+      "year": 2012
+    },
+    {
+      "id": "ad49ca3a-f810-425a-aee0-9c5d7f6c1db6",
+      "title": "Deathgasm",
+      "year": 2015
+    },
+    {
+      "id": "44260626-2e97-4b00-8d0a-31ad003b2d0e",
+      "title": "Everything We Loved",
+      "year": 2014
+    },
+    {
+      "id": "ae2804e5-1f31-4221-82d4-563a7c69974d",
+      "title": "The Great Maiden's Blush",
+      "year": 2016
+    },
+    {
+      "id": "7ca6e688-57eb-49f2-8d5b-ab05e22770d3",
+      "title": "Vai",
+      "year": 2019
+    },
+    {
+      "id": "727ce19c-05ec-46a9-bd1b-c0ff0cdc8331",
+      "title": "Bellbird",
+      "year": 2019
+    },
+    {
+      "id": "c2e86d1a-c682-440c-b05c-cd998b5a6304",
+      "title": "Visibility",
+      "year": 2019
+    },
+    {
+      "id": "04d3973f-ccc8-43ba-b507-754ad456ff1b",
+      "title": "Daffodils",
+      "year": 2019
+    },
+    {
+      "id": "4e31d267-d253-4008-ac55-01e2db72ed0e",
+      "title": "Stray",
+      "year": 2018
+    },
+    {
+      "id": "0ae2d718-acfc-4f3e-a25f-4deee612a0a3",
+      "title": "Savage",
+      "year": 2019
+    },
+    {
+      "id": "4ea6aaa2-e1cf-44d3-9003-f1f2732a8308",
+      "title": "Vermilion",
+      "year": 2018
+    },
+    {
+      "id": "a6922f6e-067b-44fe-9b5f-6c8b941c3c05",
+      "title": "The Z-Nail Gang",
+      "year": 2018
+    },
+    {
+      "id": "f7c0370a-6d34-4d83-a1b7-4ddfcb2debc3",
+      "title": "Lowdown Dirty Criminals",
+      "year": 2020
+    },
+    {
+      "id": "cf9faa9f-f624-469f-a85f-665f122ec217",
+      "title": "The Pink Hammer",
+      "year": 2020
+    }
+  ]
+}

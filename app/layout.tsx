@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { title } from "process";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,58 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="max-w-3xl">{children}</div>
+      </body>
     </html>
   );
 }
+
+/*
+home
+- cityMovieSection
+  - *cityList* 
+  - *movieScrollList-small*
+- countryMovieSection
+  - *countryList*
+  - *movieScrollList-small*
+- KeywordMovieSection
+  - *keywordList*
+
+
+movies/cities
+- *sorter*
+- *cityList*
+- *movieScrollList-large*
+
+movies/countries
+- *sorter*
+- *countryList*
+- *movieScrollList-large*
+
+
+movies/keywords
+- keywordFilter
+- *sorter*
+- *keywordMovieList*
+  - *keywordList*
+  - *movieScrollList-small*
+
+
+movies/keywords/:id
+- *sorter*
+- *keyword*
+- *movieScrollList-large*
+
+
+movies/detail/:id
+- thumbnail
+- title
+
+
+login
+- logo
+- oauth
+- oauth2
+- oauth3
+*/
