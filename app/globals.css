@@ -1,19 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard-dynamic-subset.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.semi22 {
+  font-family: Pretendard;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #1c1c1c;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.semi18 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.semi16 {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.medium15 {
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.medium17 {
+  font-family: Pretendard;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #656565;
+}
+
+.semi15 {
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.semi13 {
+  font-family: Pretendard;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.medium11 {
+  font-family: Pretendard;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.regular14 {
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.button {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border: 1.5px solid #e29970;
+}
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  background: transparent; /* Chrome/Safari/Webkit */
+  width: 0px;
+  height: 0px;
 }
