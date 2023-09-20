@@ -1,0 +1,502 @@
+[
+  {
+    "id": "0999b8c9-c834-4484-8885-c579f1d5cdd4",
+    "kor": "홍콩",
+    "name": "Hong Kong"
+  },
+  {
+    "id": "c6177b4b-4951-4be1-8979-00e55386fa3b",
+    "kor": "싱가포르",
+    "name": "Singapore"
+  },
+  {
+    "id": "8154fe01-7d5b-4aad-a4e3-d469d7fec81f",
+    "kor": "방콕",
+    "name": "Bangkok"
+  },
+  {
+    "id": "56f10dab-9337-49c9-8cd8-483bd7c758c7",
+    "kor": "푸켓",
+    "name": "Phuket"
+  },
+  {
+    "id": "cd41c8e8-05c9-4565-942c-5317daa079e1",
+    "kor": "파타야",
+    "name": "Pattaya"
+  },
+  {
+    "id": "5fda90b0-eb96-47c1-917b-7c944ddb663b",
+    "kor": "치앙마이",
+    "name": "Chiang Mai"
+  },
+  {
+    "id": "c418f38e-9acd-4fe0-a6e8-142564ee4864",
+    "kor": "런던",
+    "name": "London"
+  },
+  {
+    "id": "85c3a2bf-6d54-4a5f-a8f8-e96f760a324d",
+    "kor": "마카오",
+    "name": "Macau"
+  },
+  {
+    "id": "a454ff77-d5b6-4eb7-aa6e-2244d6140778",
+    "kor": "쿠알라룸푸르",
+    "name": "Kuala Lumpur"
+  },
+  {
+    "id": "1df45da6-a574-4708-a679-5334ce271ed9",
+    "kor": "심천",
+    "name": "Shenzhen"
+  },
+  {
+    "id": "918113cd-ac72-4db9-896f-e3fd99d71974",
+    "kor": "광저우",
+    "name": "Guangzhou"
+  },
+  {
+    "id": "6332b472-10e3-456a-9db8-c862f76d3a80",
+    "kor": "상하이",
+    "name": "Shanghai"
+  },
+  {
+    "id": "ab5ba081-097d-4f1d-b805-b7d720a6727a",
+    "kor": "베이징",
+    "name": "Beijing"
+  },
+  {
+    "id": "9da6352e-0a9d-4a5d-ade8-eaf5308af3c6",
+    "kor": "항저우",
+    "name": "Hangzhou"
+  },
+  {
+    "id": "fb2bef81-e260-41f9-b84c-7b1f0f4d005d",
+    "kor": "주하이",
+    "name": "Zhuhai"
+  },
+  {
+    "id": "685823fe-6e7b-42c3-a297-b3c336b7e246",
+    "kor": "수주",
+    "name": "Suzhou"
+  },
+  {
+    "id": "68e2c910-9435-4553-8f4e-d489797b31d2",
+    "kor": "구린",
+    "name": "Guilin"
+  },
+  {
+    "id": "be3a3eb8-cf9d-4b6e-881d-0f579b8fdfb3",
+    "kor": "난징",
+    "name": "Nanjing"
+  },
+  {
+    "id": "b73e062b-98c6-4c66-9b25-821488b9f7c9",
+    "kor": "뉴욕 시티",
+    "name": "New York City"
+  },
+  {
+    "id": "82cccec1-736e-49c4-8f4c-b817f4fff3fb",
+    "kor": "라스 베이거스",
+    "name": "Las Vegas"
+  },
+  {
+    "id": "e6a98b20-4c34-4b74-a8f6-a696a31cc4db",
+    "kor": "마이애미",
+    "name": "Miami"
+  },
+  {
+    "id": "06cbd0a8-ac01-4323-a021-b7cc74d035ed",
+    "kor": "로스앤젤레스",
+    "name": "Los Angeles"
+  },
+  {
+    "id": "0986f3a4-d7bd-4f54-838c-6a3f25171b30",
+    "kor": "올랜도",
+    "name": "Orlando"
+  },
+  {
+    "id": "840cd2a6-9912-4cd7-b0cc-4d7d79142f0c",
+    "kor": "샌프란시스코",
+    "name": "San Francisco"
+  },
+  {
+    "id": "632e606e-15ae-44c0-91d5-4f8601b8d1de",
+    "kor": "호놀룰루",
+    "name": "Honolulu"
+  },
+  {
+    "id": "5f24112f-1ab4-4aa5-9fe4-b8117ffdde1c",
+    "kor": "워싱턴 D.C.",
+    "name": "Washington D.C."
+  },
+  {
+    "id": "70d1a486-fe83-4b12-ae75-3e9647ca0051",
+    "kor": "안탈리아",
+    "name": "Antalya"
+  },
+  {
+    "id": "5b582c5c-3315-4b39-b59a-3ef98f036e9c",
+    "kor": "이스탄불",
+    "name": "Istanbul"
+  },
+  {
+    "id": "331b4a58-2737-47a1-a0c6-1c6810a2f5de",
+    "kor": "무글라",
+    "name": "Mugla"
+  },
+  {
+    "id": "2468412a-190a-4624-bcb6-8a825bfcf334",
+    "kor": "에드르네",
+    "name": "Edirne"
+  },
+  {
+    "id": "4d1d8e41-1381-41c9-82f0-3a10bf5c780f",
+    "kor": "파리",
+    "name": "Paris"
+  },
+  {
+    "id": "897c23d5-9b35-417a-a200-c84f5de7f79e",
+    "kor": "니스",
+    "name": "Nice"
+  },
+  {
+    "id": "39d821a1-3048-46ae-8b1c-5e35ffa4d939",
+    "kor": "로마",
+    "name": "Rome"
+  },
+  {
+    "id": "99844695-6007-42a5-97c6-545c3d5db50c",
+    "kor": "밀라노",
+    "name": "Milan"
+  },
+  {
+    "id": "753478d2-3a0e-44cc-8e71-9ac390a14c09",
+    "kor": "베니스",
+    "name": "Venice"
+  },
+  {
+    "id": "e69d875e-1709-4a90-a1db-222fbeee0c17",
+    "kor": "플로렌스",
+    "name": "Florence"
+  },
+  {
+    "id": "39f71909-13ef-4e40-bc1b-bdb0a2436fe6",
+    "kor": "두바이",
+    "name": "Dubai"
+  },
+  {
+    "id": "791eb290-49e9-4489-8d7d-4db1aeb23a8f",
+    "kor": "아부다비",
+    "name": "Abu Dhabi"
+  },
+  {
+    "id": "1331575e-a4d7-4323-b483-a41c36475c36",
+    "kor": "메카",
+    "name": "Mecca"
+  },
+  {
+    "id": "0293670e-6393-40ed-92e7-c4a2da0910dc",
+    "kor": "동부 지방",
+    "name": "East Province"
+  },
+  {
+    "id": "6c584e14-adbb-4549-a938-ed2871037092",
+    "kor": "리야드",
+    "name": "Riyadh"
+  },
+  {
+    "id": "a75bc7b5-5046-497a-bdb0-9b528aa0de7b",
+    "kor": "타이페이 시티",
+    "name": "Taipei City"
+  },
+  {
+    "id": "75dc0f45-81e7-4d5c-a892-daebb20292a5",
+    "kor": "프라하",
+    "name": "Prague"
+  },
+  {
+    "id": "f3bd729f-e96a-47d0-b5d9-d45ac778fbed",
+    "kor": "바르셀로나",
+    "name": "Barcelona"
+  },
+  {
+    "id": "486375fe-6f3e-4421-a5bf-410b7510042f",
+    "kor": "마드리드",
+    "name": "Madrid"
+  },
+  {
+    "id": "8330730a-95a6-447d-8a24-d93c919bfdbc",
+    "kor": "모스크바",
+    "name": "Moscow"
+  },
+  {
+    "id": "acc7580b-a39f-4109-be36-367029bc81de",
+    "kor": "상트페테르부르크",
+    "name": "St Petersburg"
+  },
+  {
+    "id": "b5c891e8-01e6-46bf-8144-d008c8242492",
+    "kor": "부다페스트",
+    "name": "Budapest"
+  },
+  {
+    "id": "a07da6fc-7f8e-4eef-99eb-66eaa5f18d0b",
+    "kor": "비엔나",
+    "name": "Vienna"
+  },
+  {
+    "id": "ef840250-fa6a-46c1-8fff-3ea08824ca43",
+    "kor": "암스테르담",
+    "name": "Amsterdam"
+  },
+  {
+    "id": "7f72ffbc-635c-4dcf-8dbe-30b050e758be",
+    "kor": "소피아",
+    "name": "Sofia"
+  },
+  {
+    "id": "b68c9c8d-0ca4-4b1e-b186-2b762aefa8fa",
+    "kor": "부르가스",
+    "name": "Burgas"
+  },
+  {
+    "id": "b932efb4-a5fb-46a8-aa02-44e7314d783b",
+    "kor": "호치민 시티",
+    "name": "Ho Chi Minh City"
+  },
+  {
+    "id": "c191cc13-e40a-43fc-bfae-03fdf79f1008",
+    "kor": "하노이",
+    "name": "Hanoi"
+  },
+  {
+    "id": "350a8805-ac83-48e8-a179-2d64efd331a0",
+    "kor": "리마",
+    "name": "Lima"
+  },
+  {
+    "id": "33144737-65d3-4588-b69b-d1bc99c04155",
+    "kor": "베를린",
+    "name": "Berlin"
+  },
+  {
+    "id": "212693ad-680d-4e01-b591-82ee1c6b3371",
+    "kor": "뮌헨",
+    "name": "Munich"
+  },
+  {
+    "id": "7d84704c-1d7c-42dc-905c-4bb41b6002ff",
+    "kor": "프랑크푸르트",
+    "name": "Frankfurt"
+  },
+  {
+    "id": "73f45424-e543-4610-a9cc-7d8c247b4fdd",
+    "kor": "도쿄",
+    "name": "Tokyo"
+  },
+  {
+    "id": "94956796-4f07-4585-b267-997714a3ee2e",
+    "kor": "바르샤바",
+    "name": "Warsaw"
+  },
+  {
+    "id": "b1e4e4e9-83f4-4c06-8d78-f299deab3e95",
+    "kor": "첸나이",
+    "name": "Chennai"
+  },
+  {
+    "id": "7365ab84-01fa-403e-a9e7-e82aedb64c7a",
+    "kor": "뭄바이",
+    "name": "Mumbai"
+  },
+  {
+    "id": "75ed03f6-91c6-4226-8575-151ca786fa98",
+    "kor": "델리",
+    "name": "Delhi"
+  },
+  {
+    "id": "bf4ac37f-9934-4214-a9b3-26bc6ec3c049",
+    "kor": "아그라",
+    "name": "Agra"
+  },
+  {
+    "id": "a7bf7196-022d-4517-b471-c06d32872584",
+    "kor": "자이푸르",
+    "name": "Jaipur"
+  },
+  {
+    "id": "abd78a7b-58e9-4435-bf46-438453fdf18f",
+    "kor": "콜카타",
+    "name": "Kolkata"
+  },
+  {
+    "id": "02ccd9be-825e-46c7-aa81-893f39bd929e",
+    "kor": "카이로",
+    "name": "Cairo"
+  },
+  {
+    "id": "37b0bb11-94ae-4209-8bdd-2790b2be25d9",
+    "kor": "샤름 엘 쉐이크",
+    "name": "Sharm el-Sheikh"
+  },
+  {
+    "id": "0c1ce280-fffd-495a-a3e4-cc6a2101cc96",
+    "kor": "나이로비",
+    "name": "Nairobi"
+  },
+  {
+    "id": "7954501a-63d5-4cf0-8e2f-6a64982fce09",
+    "kor": "부에노스 아이레스",
+    "name": "Buenos Aires"
+  },
+  {
+    "id": "88919fe7-8d7b-4607-be95-595ea14b78d9",
+    "kor": "멕시코 시티",
+    "name": "Mexico City"
+  },
+  {
+    "id": "07fe21c8-e732-4863-929b-07d5d1224477",
+    "kor": "칸쿤",
+    "name": "Cancun"
+  },
+  {
+    "id": "c9f929ad-a102-4b4f-8ddf-081c5eb9b4cd",
+    "kor": "더블린",
+    "name": "Dublin"
+  },
+  {
+    "id": "f3fcc44d-5e6e-4b4f-99e2-d5dbb95c7ac9",
+    "kor": "서울",
+    "name": "Seoul"
+  },
+  {
+    "id": "80d1dc01-5391-4dbd-9ec2-0da21eb538b9",
+    "kor": "덴파사르",
+    "name": "Denpasar"
+  },
+  {
+    "id": "e70932de-22da-4eb8-84cf-733cb16dca91",
+    "kor": "자카르타",
+    "name": "Jakarta"
+  },
+  {
+    "id": "60c1cf44-8dfe-4a76-9891-b6f5f402177c",
+    "kor": "토론토",
+    "name": "Toronto"
+  },
+  {
+    "id": "27e584b3-0df0-42f4-b7c4-e4cf1a385063",
+    "kor": "밴쿠버",
+    "name": "Vancouver"
+  },
+  {
+    "id": "8b436c91-8b06-45fb-b0aa-1887303acfc9",
+    "kor": "시드니",
+    "name": "Sydney"
+  },
+  {
+    "id": "3a390a72-80ce-4879-8f54-4f393ef70d5a",
+    "kor": "멜버른",
+    "name": "Melbourne"
+  },
+  {
+    "id": "c190dde9-c679-4853-ac43-8a5936da9524",
+    "kor": "제르바",
+    "name": "Djerba"
+  },
+  {
+    "id": "ec43f72f-dddf-463a-9d45-28e4b01c8534",
+    "kor": "수스",
+    "name": "Sousse"
+  },
+  {
+    "id": "a9a749d5-f3ce-4c83-b860-90c04ce190a5",
+    "kor": "요하네스버그",
+    "name": "Johannesburg"
+  },
+  {
+    "id": "8a2ef5b7-042b-4b1b-8735-806511f1619f",
+    "kor": "부쿠레슈티",
+    "name": "Bucharest"
+  },
+  {
+    "id": "28909d38-2d31-45eb-be1b-c46f355ecd11",
+    "kor": "푼타카나",
+    "name": "Punta Cana"
+  },
+  {
+    "id": "0f103b86-6f7c-48d4-8ba1-9d6adfcb143c",
+    "kor": "브뤼셀",
+    "name": "Brussels"
+  },
+  {
+    "id": "ad545c83-70f8-4aa4-b1eb-4f39e4f1476e",
+    "kor": "리스본",
+    "name": "Lisbon"
+  },
+  {
+    "id": "5fd59490-0f17-44a9-abe2-8a2a6233a506",
+    "kor": "마라케시",
+    "name": "Marrakech"
+  },
+  {
+    "id": "ed6a0b77-4a8e-4227-bbbc-2ed76132cdc2",
+    "kor": "마나마",
+    "name": "Manama"
+  },
+  {
+    "id": "4a23d38c-be95-43e8-aadc-68fe4beeb6c9",
+    "kor": "마닐라",
+    "name": "Manila"
+  },
+  {
+    "id": "a56b5cd8-3c74-4f16-9426-320001577d5c",
+    "kor": "오클랜드",
+    "name": "Auckland"
+  },
+  {
+    "id": "e896d841-ba9d-4e7b-b2fe-dfdf3a20b687",
+    "kor": "크라이스트처치",
+    "name": "Christchurch"
+  },
+  {
+    "id": "db5baca4-bd45-457b-8ba1-1dc21d26ed04",
+    "kor": "시엠립",
+    "name": "Siem Reap"
+  },
+  {
+    "id": "33ad50e7-ba13-4622-a1d6-11df1d5acac6",
+    "kor": "암만",
+    "name": "Amman"
+  },
+  {
+    "id": "d220a001-6609-437d-a2d5-06f42e7ef953",
+    "kor": "키예프",
+    "name": "Kyiv"
+  },
+  {
+    "id": "595f40c1-c715-4c9c-9e82-eb7c2880851d",
+    "kor": "도하",
+    "name": "Doha"
+  },
+  {
+    "id": "85799ccc-fddd-4b4e-9601-f44c90a92649",
+    "kor": "리우데자네이루",
+    "name": "Rio de Janeiro"
+  },
+  {
+    "id": "5d7fc410-5607-4558-bc71-863e89a9b9eb",
+    "kor": "상파울루",
+    "name": "Sao Paulo"
+  },
+  {
+    "id": "ed8f7e08-4b78-43dd-bbba-6dbb27f1556f",
+    "kor": "바쿠",
+    "name": "Baku"
+  },
+  {
+    "id": "9121279b-4856-4990-842a-346e7fd7851c",
+    "kor": "하라레",
+    "name": "Harare"
+  }
+]
