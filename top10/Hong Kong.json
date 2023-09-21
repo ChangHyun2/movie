@@ -1,0 +1,179 @@
+[
+  {
+    "id": "6a04383a-7f78-475d-9bc9-58df8e997b98",
+    "movieId": "9222b6ac-7cc9-4db5-becb-60503f01414a",
+    "tags": ["Tense", "urban", "independent film", "Art"]
+  },
+  {
+    "id": "9171cd0c-3670-45e0-bfbb-d874f12ab072",
+    "movieId": "8103d013-a73e-4975-93d5-4a1199e92fd7",
+    "tags": [
+      "winter",
+      "touching",
+      "heavy-hearted",
+      "immersive",
+      "Tense",
+      "period piece",
+      "classic masterpiece"
+    ]
+  },
+  {
+    "id": "96a9c028-0e57-4bd5-a2bb-b243835d8a03",
+    "movieId": "87c44008-6165-4b1e-9e5b-ad8002616a32",
+    "tags": ["Tense", "urban", "independent film"]
+  },
+  {
+    "id": "33832100-cd41-49f3-89c3-39476274635b",
+    "movieId": "98b66ce1-3413-4bd4-9d54-4d299efb340b",
+    "tags": ["Tense", "immersive"]
+  },
+  {
+    "id": "474996d4-215b-421d-9316-5a953612ce8c",
+    "movieId": "79b081e9-7e88-4b5e-89b0-b2f52d5a51eb",
+    "tags": ["Tense"]
+  },
+  {
+    "id": "7bbf5fb0-d5ab-49ba-acd7-054f443b7ce7",
+    "movieId": "fbd76db4-cb05-4a9e-9a85-d4bce7c8ffe4",
+    "tags": ["touching", "immersive", "growth"]
+  },
+  {
+    "id": "fe43158c-d41d-4e77-924c-e8ac2f366b01",
+    "movieId": "8b64cbc8-6ed3-4782-85ef-aac9af174d7b",
+    "tags": ["Tense", "touching", "immersive"]
+  },
+  {
+    "id": "b09f89f4-fa10-450c-9e9f-d2eb5c438d79",
+    "movieId": "7af441a4-4351-41e9-a831-39330a735b34",
+    "tags": ["independent film", "touching", "heavy-hearted"]
+  },
+  {
+    "id": "50399883-49e9-429b-9d8a-b88a0aa8f78f",
+    "movieId": "20a8cb87-bcea-4590-8103-a5abbf3be7b5",
+    "tags": [
+      "touching",
+      "Satisfying",
+      "immersive",
+      "Tense",
+      "twist",
+      "Art",
+      "nature",
+      "independent film"
+    ]
+  },
+  {
+    "id": "7d6c1a38-40c4-40e0-8bb6-750b17c5550d",
+    "movieId": "ca4a5d94-b9bf-4fea-bf00-e425a89ee618",
+    "tags": ["urban", "film festival award", "independent film"]
+  },
+  {
+    "id": "673d26ca-60b2-4d3e-afc7-e6a1ef131534",
+    "movieId": "65889377-ba20-4142-879c-b0b51bde83b2",
+    "tags": ["Tense", "immersive"]
+  },
+  {
+    "id": "24831828-4137-446c-bb4d-e24a4571c931",
+    "movieId": "03eae13f-fe17-44a5-b200-d7e7253e78ec",
+    "tags": [
+      "heavy-hearted",
+      "touching",
+      "immersive",
+      "urban",
+      "independent film"
+    ]
+  },
+  {
+    "id": "6fe32824-ba98-4ea8-b4ba-39c00e8b0e4d",
+    "movieId": "9b8daa79-c0c0-41b5-9573-abd6fee2e891",
+    "tags": ["Tense", "urban"]
+  },
+  {
+    "id": "bcf12408-0bbc-487b-b913-31fa66f8051c",
+    "movieId": "9ce0e469-002b-4729-b7b1-76e583586198",
+    "tags": ["Tense", "twist", "independent film"]
+  },
+  {
+    "id": "be151121-462c-40ce-a610-34d538196963",
+    "movieId": "bb58c6c7-f68d-4304-8e5d-56ee2b88c3b4",
+    "tags": ["Tense", "period piece"]
+  },
+  {
+    "id": "d0b77fb3-b10e-45b2-b672-e0a0fbc39c2e",
+    "movieId": "672a90ce-ddd0-4054-aae6-1085319a40c3",
+    "tags": ["cozy", "leisurely", "fluttering", "touching", "urban", "growth"]
+  },
+  {
+    "id": "818cc321-2776-49ec-b95a-11c69d0170a9",
+    "movieId": "d3d51c68-78b0-46a8-acc0-a4a32f4957f3",
+    "tags": [
+      "period piece",
+      "growth",
+      "film festival award",
+      "independent film"
+    ]
+  },
+  {
+    "id": "2ddb7c4d-f61f-4444-ab02-27d3e2690a40",
+    "movieId": "1684387c-1028-417d-bb93-c06d33920ad2",
+    "tags": ["heavy-hearted", "Tense", "independent film"]
+  },
+  {
+    "id": "cdbacafc-39d9-4995-8365-40668cc28aa0",
+    "movieId": "4dd8e4b0-6899-40aa-b9ec-0cf212368b4c",
+    "tags": ["Tense", "immersive", "twist", "urban", "film festival award"]
+  },
+  {
+    "id": "8b434d09-77da-4847-976a-d3e9055ffc19",
+    "movieId": "8941870d-9153-4417-a313-bfb0ca07cdba",
+    "tags": ["Tense", "independent film"]
+  },
+  {
+    "id": "22661d2c-9abe-45cc-b621-bbe42859870f",
+    "movieId": "4c56bc42-dee3-4a1b-90bb-28f104fc2e32",
+    "tags": ["urban", "independent film"]
+  },
+  {
+    "id": "be3d0df3-c137-42db-8b9a-a880808ec910",
+    "movieId": "84493de8-c13c-4d89-9d28-d57b8498319e",
+    "tags": ["Tense", "immersive"]
+  },
+  {
+    "id": "09721945-a416-42e8-935c-9e825017b261",
+    "movieId": "011faa5f-a608-40a4-be35-25cabec06466",
+    "tags": ["Tense", "immersive"]
+  },
+  {
+    "id": "6ed30951-9b98-4390-a72f-28bedbe41a27",
+    "movieId": "12886058-3d67-4401-accc-2420fdef42cd",
+    "tags": ["touching", "immersive"]
+  },
+  {
+    "id": "7b974712-6f54-4e5c-91a1-59f178bd7661",
+    "movieId": "07909b19-33f8-4863-9a84-21e7a8d03d58",
+    "tags": ["Tense", "immersive"]
+  },
+  {
+    "id": "cb38d015-de78-439a-af52-4dbd1a0d18a1",
+    "movieId": "c5e42864-f5e0-4e91-bd3d-9260ff87e815",
+    "tags": [
+      "Satisfying",
+      "immersive",
+      "Tense",
+      "growth",
+      "twist",
+      "Art",
+      "urban",
+      "film festival award"
+    ]
+  },
+  {
+    "id": "94b4486a-e5ff-4578-a1f6-089372cbb758",
+    "movieId": "1b609304-93ef-4233-87b5-a031cf034247",
+    "tags": ["immersive", "Satisfying", "Tense"]
+  },
+  {
+    "id": "0e51a073-33c5-421c-83de-e7e178b1bf1e",
+    "movieId": "9e757e8f-dda8-44f7-b94f-c8f865b3fd76",
+    "tags": ["Tense", "urban", "immersive"]
+  }
+]

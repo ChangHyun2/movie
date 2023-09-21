@@ -25,7 +25,7 @@ export default function MovieCardMd(props: MovieCardProps) {
           className="relative"
           style={{ height: "calc((100vw - 50px) / 2 * 4 / 3)" }}
         >
-          <Link href={`/movie/${props.id}`}>
+          <Link href={`/movies/${props.id}`}>
             <Image src={props.thumbnail} alt={`${props.title} poster`} fill />
           </Link>
         </div>
@@ -36,7 +36,14 @@ export default function MovieCardMd(props: MovieCardProps) {
           <div>
             <div className="medium11 mb-1">{props.genre}</div>
             <div className="flex items-center">
-              <span className="mr-1">⭐️</span>
+              <span className="mr-1">
+                <Image
+                  src="/star.svg"
+                  width={10}
+                  height={10}
+                  alt="start icon"
+                />
+              </span>
               <span className="medium11">{props.rating}</span>
             </div>
           </div>

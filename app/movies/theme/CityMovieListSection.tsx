@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import CityList, { CityListProps } from "../components/CityList";
+import CityList, { CityListProps } from "../../components/CityList";
 import Link from "next/link";
-import MovieCardSmList from "../components/MovieCardSmList";
-import { MovieCardProps } from "../components/MovieCardMd";
+import MovieCardSmList from "../../components/MovieCardSmList";
+import { MovieCardProps } from "../../components/MovieCardMd";
 
 type CityMovieListSectionProps = {
   cities: CityListProps["cities"];

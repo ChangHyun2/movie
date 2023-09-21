@@ -4,26 +4,40 @@
 @tailwind components;
 @tailwind utilities;
 
-.semi22 {
+.regular14 {
   font-family: Pretendard;
-  font-size: 22px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #1c1c1c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
 }
 
-.semi18 {
-  font-family: Pretendard;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21px;
-}
-
-.semi16 {
+.regular16 {
   font-family: Pretendard;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
+  line-height: 19px;
+  color: #454545;
+}
+.regular18 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 21px;
+  color: #656565;
+}
+
+.medium9 {
+  font-family: Pretendard;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11px;
+}
+
+.medium11 {
+  font-family: Pretendard;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
 }
 
 .medium15 {
@@ -41,11 +55,18 @@
   color: #656565;
 }
 
-.semi15 {
+.medium18 {
   font-family: Pretendard;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.medium18 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
 }
 
 .semi13 {
@@ -55,18 +76,46 @@
   line-height: 16px;
 }
 
-.medium11 {
+.semi16 {
   font-family: Pretendard;
-  font-size: 11px;
-  font-weight: 500;
-  line-height: 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
 }
 
-.regular14 {
+.semi15 {
   font-family: Pretendard;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.semi18 {
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.semi22 {
+  font-family: Pretendard;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #1c1c1c;
+}
+
+.semi24 {
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.bold16 {
+  font-family: Pretendard;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
 }
 
 .button {
@@ -87,4 +136,18 @@
   background: transparent; /* Chrome/Safari/Webkit */
   width: 0px;
   height: 0px;
+}
+
+.box {
+  border: 1px solid #bcbcbc;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.footer-shadow {
+  box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.1);
 }

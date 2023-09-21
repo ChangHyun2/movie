@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import CountryList, { CountryListProps } from "../components/CountryList";
+import CountryList, { CountryListProps } from "../../components/CountryList";
 import Link from "next/link";
-import MovieCardSmList from "../components/MovieCardSmList";
-import { MovieCardProps } from "../components/MovieCardMd";
+import MovieCardSmList from "../../components/MovieCardSmList";
+import { MovieCardProps } from "../../components/MovieCardMd";
 
 type CountryMovieListSectionProps = {
   countries: CountryListProps["countries"];

@@ -1,3 +1,3 @@
 export default function KeywordsPage() {
-  return <></>;
+  return <div>keywords</div>;
 }

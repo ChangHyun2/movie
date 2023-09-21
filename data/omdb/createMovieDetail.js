@@ -1,54 +1,66 @@
-const { readdir, writeFileSync } = require("fs");
+const { readdir, writeFileSync, readFileSync } = require("fs");
+const fetch = require("node-fetch");
 const path = require("path");
 const qs = require("qs");
 
-const movieDetails = require("./movieDetails.json");
+const failures = new Set();
 
 readdir(path.join(__dirname, "../chatgpt/citiesmovies"), (err, files) => {
-  const fileTasks = [...files].slice(2);
+  const movieDetails = JSON.parse(
+    readFileSync(path.join(__dirname, "./movieDetails.json"))
+  );
+  const fileTasks = files;
+  const stack = [];
+
+  fileTasks.forEach((file) => {
+    const cityMovies = require(path.join(
+      __dirname,
+      "../chatgpt/citiesmovies/" + file
+    ));
+
+    stack.push(...cityMovies.movies);
+  });
 
   (async () => {
-    while (fileTasks.length) {
-      const file = fileTasks.shift();
+    while (stack.length) {
+      const movie = stack.shift();
 
-      const cityMovies = require(path.join(
-        __dirname,
-        "../chatgpt/citiesmovies/" + file
-      ));
+      if (
+        movieDetails[movie.id].Response === "False" ||
+        movieDetails[movie.id] === null
+      ) {
+        // continue;
 
-      const movies = cityMovies.movies;
-      console.log(movies.length);
+        console.log(movie.id);
 
-      const promises = movies.map(async (m, idx) => {
-        await new Promise((res) => setTimeout(() => res(), idx * 500));
-        const data = await getMovie({ t: m.title, y: m.year });
+        console.log(`collect ${movie.id}`);
+        await new Promise((res) => setTimeout(() => res(), 300));
+        const movieDetail = await getMovie({ t: movie.title, y: movie.year });
+        if (movieDetail !== null) {
+          movieDetails[movie.id] = movieDetail;
+          console.log(`collect success`);
+        } else {
+          if (failures.has(movie.title)) {
+            console.log(`failure again : ${movie.title}`);
+          }
 
-        return data;
-      });
+          console.log(`collect failure`);
+          failures.add(movie.title);
+          stack.push(movie);
+        }
 
-      const data = await Promise.all(promises);
-
-      data.forEach((m, idx) => {
-        const movie = movies[idx];
-        movieDetails[movie.id] = m;
-      });
-
-      writeFileSync(
-        "./prevTask.json",
-        JSON.stringify({
-          taskType: "createMovieDetail.js",
-          file,
-        })
-      );
-
-      writeFileSync("./movieDetails.json", JSON.stringify(movieDetails));
+        writeFileSync(
+          path.join(__dirname, "./movieDetails.json"),
+          JSON.stringify(movieDetails)
+        );
+      }
     }
   })();
 });
 
 const getMovie = async (params) => {
   const _params = {
-    apikey: "c87cae29",
+    apikey: "ff8a33e4",
     type: "movie",
     plot: "full",
     r: "json",
@@ -59,9 +71,9 @@ const getMovie = async (params) => {
 
   if (res.ok) {
     const data = await res.json();
-
     return data;
   }
+  console.log(res.status);
 
   return null;
 };

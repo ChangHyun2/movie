@@ -1,0 +1,131 @@
+[
+  {
+    "id": "29ed84b7-8f25-43e9-9499-85293f7b1eae",
+    "movieId": "9c82f29f-9c0f-462f-b707-fec2b1782946",
+    "tags": []
+  },
+  {
+    "id": "4cc0bc1b-a425-4f27-8985-9bd4b39f47e5",
+    "movieId": "f1fce096-f1f0-4eea-b5bf-84fb8a04db68",
+    "tags": ["period piece", "touching", "heavy-hearted"]
+  },
+  {
+    "id": "27878fcb-2832-49b7-81ba-d5eca77735a9",
+    "movieId": "3eb83b9e-8dcf-4ee4-b434-ce197462a390",
+    "tags": []
+  },
+  {
+    "id": "6e80e9e9-7f8f-43ea-8597-5fb703773cf1",
+    "movieId": "e72dfac2-ec5c-47e7-8add-5a8634b4dd6a",
+    "tags": []
+  },
+  {
+    "id": "0f236a20-6e91-412b-99ad-db7a997d9365",
+    "movieId": "2cb80c0b-19b2-4b91-857b-24996efc2fa1",
+    "tags": []
+  },
+  {
+    "id": "a21d5e8e-ff31-4374-98df-fa080aa8d47b",
+    "movieId": "ef76cc29-d781-40e1-9f07-a4c05a7b8697",
+    "tags": []
+  },
+  {
+    "id": "1e23ac40-c39f-4d8c-9c30-bb39b6925b05",
+    "movieId": "2e78d213-b579-4470-9771-e759a2e24587",
+    "tags": ["independent film", "Art"]
+  },
+  {
+    "id": "a4c9a58f-777c-4fe0-8830-d19dc9cf9ca1",
+    "movieId": "ffe7fd94-4799-4563-8d98-69c8fc998bd1",
+    "tags": []
+  },
+  {
+    "id": "f4a13021-5df4-4672-a9b6-f5e6fe5af52d",
+    "movieId": "55e9b464-e0af-430c-a9df-ef6e7aa1ce24",
+    "tags": [
+      "touching",
+      "heavy-hearted",
+      "period piece",
+      "Art",
+      "nature",
+      "tranquil",
+      "film festival award",
+      "classic masterpiece"
+    ]
+  },
+  {
+    "id": "421455fa-6344-48d3-b340-b62222c1a415",
+    "movieId": "29dadea4-bb35-4e4c-904d-f67aee73ff1a",
+    "tags": []
+  },
+  {
+    "id": "96d547d7-d286-473d-a15a-de943dcafdf7",
+    "movieId": "693e657f-826d-433a-bf9e-58006f488782",
+    "tags": ["nature"]
+  },
+  {
+    "id": "32d49560-8bfc-40f3-ac91-47a89d98ad41",
+    "movieId": "19cfa4f6-684d-4282-87dc-fd868911a2b3",
+    "tags": []
+  },
+  {
+    "id": "c6fcae2f-b81b-473d-953b-eacc2c65641a",
+    "movieId": "82b25495-19c4-4612-b124-fb7c49ff83a9",
+    "tags": []
+  },
+  {
+    "id": "defb9740-9890-4262-9260-982ba39d822e",
+    "movieId": "6287d7c1-f7c9-4d1b-9f01-b3a09b328a0a",
+    "tags": []
+  },
+  {
+    "id": "75602808-6a0f-4b25-b827-77439abe8729",
+    "movieId": "7a3c3890-b96e-4798-814f-aab3057acc59",
+    "tags": []
+  },
+  {
+    "id": "8ca4c3e8-6a0b-486c-ba10-8e2b08780baf",
+    "movieId": "b435afd4-81a6-4c1a-b7a7-31e834f5e829",
+    "tags": ["independent film", "film festival award"]
+  },
+  {
+    "id": "c541d48d-3b66-4160-a183-3e194a8c38e9",
+    "movieId": "c8b998bb-cb5c-47fa-b1a6-93c838e12227",
+    "tags": []
+  },
+  {
+    "id": "1005fa08-bdff-4958-ad80-e003839c9556",
+    "movieId": "5ac264df-a999-4584-88eb-576663b796ca",
+    "tags": []
+  },
+  {
+    "id": "221d921f-a6d7-471c-9e68-0fb17e99b25f",
+    "movieId": "469afe0a-90b0-4525-8ae5-c0fe9c79c29b",
+    "tags": ["winter", "snowy"]
+  },
+  {
+    "id": "e89390a3-f13d-4d1d-add5-deeed74e2784",
+    "movieId": "f59c3d48-81f1-48cc-805d-291838a46b01",
+    "tags": []
+  },
+  {
+    "id": "35ad4a0f-57b3-4f93-909f-70f9118038ea",
+    "movieId": "6ca73490-fbc6-4637-8364-5d171d2da765",
+    "tags": ["period piece", "independent film"]
+  },
+  {
+    "id": "1499a62e-878b-46b4-b1ff-4aff84520871",
+    "movieId": "4dd63972-4a8b-4c41-9cfc-75ec6d7f80d1",
+    "tags": []
+  },
+  {
+    "id": "c8755413-e63e-481f-9154-ad710e017959",
+    "movieId": "46cdc0b9-0447-4682-b262-9d476c83fcbf",
+    "tags": []
+  },
+  {
+    "id": "e3dea018-51fe-4508-85dc-0b0f62476d8d",
+    "movieId": "e63cdef2-d952-401f-b0f7-b6435ff46eb1",
+    "tags": []
+  }
+]

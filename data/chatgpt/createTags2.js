@@ -26,11 +26,30 @@ readdir(path.join(__dirname, "./citiesmovies"), (err, files) => {
     });
   });
 
-  const seoulCityMovies = citiesMovies.find(
-    (cityMovie) => cityMovie.cityMovies.name === "Seoul"
-  );
+  const collected = [
+    "Seoul",
+    "Vienna",
+    "Abu Dhabi",
+    "Agra",
+    "Amman",
+    "Amsterdam",
+    "Antalya",
+    "Auckland",
+    "Baku",
+    "Bangkok",
+    "Barcelona",
+    "Beijing",
+    "Berlin",
+    "Brussels",
+    "Bucharest",
+    "Budapest",
+    "Buenos Aires",
+    "Burgas",
+  ];
 
-  const test = [seoulCityMovies];
+  const test = citiesMovies.filter(({ cityMovies }) => cityMovies.rank < 11);
+  console.log(test);
+  return;
 
   (async () => {
     while (test.length) {
@@ -40,16 +59,19 @@ readdir(path.join(__dirname, "./citiesmovies"), (err, files) => {
         fileName,
       } = task;
 
+      if (collected.some((c) => c === cityName)) continue;
+
       const movieTags = [];
 
-      movies.forEach((m, idx) => {
-        setTimeout(() => {
-          openai.chat.completions
-            .create({
-              messages: [
-                {
-                  role: "user",
-                  content: `
+      const promise = new Promise((res) => {
+        movies.forEach((m, idx) => {
+          setTimeout(() => {
+            openai.chat.completions
+              .create({
+                messages: [
+                  {
+                    role: "user",
+                    content: `
                   i want to label some classifiers to a movie.
   
                   movie
@@ -68,55 +90,59 @@ readdir(path.join(__dirname, "./citiesmovies"), (err, files) => {
   
                   output should only contain classifiers with comma seperator.
                   `,
-                },
-              ],
-              model: "gpt-4",
-            })
-            .then((data) => {
-              const {
-                choices: [
-                  {
-                    message: { content },
                   },
                 ],
-              } = data;
+                model: "gpt-4",
+              })
+              .then((data) => {
+                const {
+                  choices: [
+                    {
+                      message: { content },
+                    },
+                  ],
+                } = data;
 
-              const possibleTags = content.split(",").map((s) => s.trim());
-              console.log(content);
+                const possibleTags = content.split(",").map((s) => s.trim());
+                console.log(content);
 
-              const tags = possibleTags.filter((t) =>
-                engTags.some((tag) => tag === t)
-              );
-
-              movieTags.push({
-                id: crypto.randomUUID(),
-                movieId: m.id,
-                tags,
-              });
-
-              console.log(movieTags);
-
-              // last
-              if (idx === movies.length - 1) {
-                writeFileSync(
-                  "./collected/" + fileName,
-                  JSON.stringify(movieTags)
+                const tags = possibleTags.filter((t) =>
+                  engTags.some((tag) => tag === t)
                 );
-              }
 
-              // const movieTags = content.split("\n").map((tag, i) => {
-              //   const cut = tag.indexOf("-");
+                movieTags.push({
+                  id: crypto.randomUUID(),
+                  movieId: m.id,
+                  tags,
+                });
 
-              //   const tags = tag
-              //     .slice(cut + 1)
-              //     .split(",")
-              //     .map((t) => t.trim());
+                console.log(movieTags);
 
-              //   return tags;
-              // });
-            });
-        }, 3000 * idx);
+                // last
+                if (idx === movies.length - 1) {
+                  writeFileSync(
+                    "./top10/" + fileName,
+                    JSON.stringify(movieTags)
+                  );
+                  res(fileName + "done");
+                }
+
+                // const movieTags = content.split("\n").map((tag, i) => {
+                //   const cut = tag.indexOf("-");
+
+                //   const tags = tag
+                //     .slice(cut + 1)
+                //     .split(",")
+                //     .map((t) => t.trim());
+
+                //   return tags;
+                // });
+              });
+          }, 3000 * idx);
+        });
       });
+
+      await promise;
     }
   })();
 });

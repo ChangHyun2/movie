@@ -16,7 +16,9 @@ const movieIdToMovieSummary = (movieId) => {
     id: movieId,
     thumbnail: Poster,
     title: Title,
-    rating: Ratings?.length ? Ratings[0].Value : undefined,
+    rating: Ratings?.length
+      ? ((Ratings[0].Value.split("/")[0] / 10) * 5).toFixed(1)
+      : undefined,
     genre: Genre,
   };
 };

@@ -15,7 +15,7 @@ export default function MovieCardSm(props: MovieCardProps) {
         }}
       >
         <div className="relative " style={{ width: "90px", height: "120px" }}>
-          <Link href={`/movie/${props.id}`}>
+          <Link href={`/movies/${props.id}`}>
             <Image src={props.thumbnail} alt={`${props.title} poster`} fill />
           </Link>
         </div>
@@ -26,7 +26,14 @@ export default function MovieCardSm(props: MovieCardProps) {
           <div>
             <div className="medium11 mb-1">{props.genre}</div>
             <div className="flex items-center">
-              <span className="mr-1">⭐️</span>
+              <span className="mr-1">
+                <Image
+                  src="/star.svg"
+                  width={10}
+                  height={10}
+                  alt="start icon"
+                />
+              </span>
               <span className="medium11">{props.rating}</span>
             </div>
           </div>
