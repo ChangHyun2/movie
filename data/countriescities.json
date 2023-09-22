@@ -150,14 +150,6 @@
         "country": "Thailand",
         "tourists": 6.6,
         "kor": "파타야"
-      },
-      {
-        "id": "5fda90b0-eb96-47c1-917b-7c944ddb663b",
-        "rank": 70,
-        "name": "Chiang Mai",
-        "country": "Thailand",
-        "tourists": 2.2,
-        "kor": "치앙마이"
       }
     ]
   },
@@ -547,14 +539,6 @@
     "id": "fb975fea-3553-48ac-b3e2-bf509631e428",
     "name": "Turkey",
     "cities": [
-      {
-        "id": "70d1a486-fe83-4b12-ae75-3e9647ca0051",
-        "rank": 9,
-        "name": "Antalya",
-        "country": "Turkey",
-        "tourists": 10.3,
-        "kor": "안탈리아"
-      },
       {
         "id": "5b582c5c-3315-4b39-b59a-3ef98f036e9c",
         "rank": 11,

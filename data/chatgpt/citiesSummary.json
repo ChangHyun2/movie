@@ -25,11 +25,6 @@
     "name": "Pattaya"
   },
   {
-    "id": "5fda90b0-eb96-47c1-917b-7c944ddb663b",
-    "kor": "치앙마이",
-    "name": "Chiang Mai"
-  },
-  {
     "id": "c418f38e-9acd-4fe0-a6e8-142564ee4864",
     "kor": "런던",
     "name": "London"
@@ -80,11 +75,6 @@
     "name": "Suzhou"
   },
   {
-    "id": "68e2c910-9435-4553-8f4e-d489797b31d2",
-    "kor": "구린",
-    "name": "Guilin"
-  },
-  {
     "id": "be3a3eb8-cf9d-4b6e-881d-0f579b8fdfb3",
     "kor": "난징",
     "name": "Nanjing"
@@ -130,11 +120,6 @@
     "name": "Washington D.C."
   },
   {
-    "id": "70d1a486-fe83-4b12-ae75-3e9647ca0051",
-    "kor": "안탈리아",
-    "name": "Antalya"
-  },
-  {
     "id": "5b582c5c-3315-4b39-b59a-3ef98f036e9c",
     "kor": "이스탄불",
     "name": "Istanbul"
@@ -173,11 +158,6 @@
     "id": "753478d2-3a0e-44cc-8e71-9ac390a14c09",
     "kor": "베니스",
     "name": "Venice"
-  },
-  {
-    "id": "e69d875e-1709-4a90-a1db-222fbeee0c17",
-    "kor": "플로렌스",
-    "name": "Florence"
   },
   {
     "id": "39f71909-13ef-4e40-bc1b-bdb0a2436fe6",
@@ -268,11 +248,6 @@
     "id": "c191cc13-e40a-43fc-bfae-03fdf79f1008",
     "kor": "하노이",
     "name": "Hanoi"
-  },
-  {
-    "id": "350a8805-ac83-48e8-a179-2d64efd331a0",
-    "kor": "리마",
-    "name": "Lima"
   },
   {
     "id": "33144737-65d3-4588-b69b-d1bc99c04155",
@@ -489,11 +464,7 @@
     "kor": "상파울루",
     "name": "Sao Paulo"
   },
-  {
-    "id": "ed8f7e08-4b78-43dd-bbba-6dbb27f1556f",
-    "kor": "바쿠",
-    "name": "Baku"
-  },
+
   {
     "id": "9121279b-4856-4990-842a-346e7fd7851c",
     "kor": "하라레",

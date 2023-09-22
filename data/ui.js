@@ -27,6 +27,7 @@ export const cities = citiesSummary.map(({ id, kor }) => ({ id, kor }));
 export const citiesMovieSummaries = cities.reduce((acc, city) => {
   const titleSet = new Set();
 
+  // console.log(citiesMovieIds[city.id]);
   acc[city.id] = citiesMovieIds[city.id]
     .map(movieIdToMovieSummary)
     .filter((movieSummary) => {
@@ -35,6 +36,7 @@ export const citiesMovieSummaries = cities.reduce((acc, city) => {
       titleSet.add(movieSummary.title);
       return true;
     });
+
   return acc;
 }, {});
 

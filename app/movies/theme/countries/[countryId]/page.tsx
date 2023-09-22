@@ -1,21 +1,24 @@
 "use client";
 
-import { cities, citiesMovieSummaries } from "@/data/ui";
-import CityList from "@/app/components/CityList";
+import { countries, countriesMoviesSummaries } from "@/data/ui";
 import { useState } from "react";
 import Header from "@/app/components/Header";
 
 import MovieCardMdList from "@/app/components/MovieCardMdList";
+import CountryList from "@/app/components/CountryList";
 
-export default function CitiesMoviesPage({
+export default function CountriesMoviesPage({
   params,
 }: {
-  params: { cityId: string };
+  params: { countryId: string };
 }) {
-  const [selectedCity, setSelectedCity] = useState<string>(params.cityId);
+  const [selectedCountry, setSelectedCountry] = useState<string>(
+    params.countryId
+  );
 
-  const movies = (citiesMovieSummaries as any)[selectedCity];
-  const cityId = params.cityId || cities[0].id;
+  console.log(countriesMoviesSummaries, selectedCountry);
+  const movies = (countriesMoviesSummaries as any)[selectedCountry];
+  const countryId = params.countryId || countries[0].id;
 
   return (
     <>
@@ -27,10 +30,10 @@ export default function CitiesMoviesPage({
           </select>
         </div>
         <div className="mb-2">
-          <CityList
-            cities={cities}
-            selected={selectedCity}
-            onChange={(selected) => setSelectedCity(selected)}
+          <CountryList
+            countries={countries}
+            selected={selectedCountry}
+            onChange={(selected) => setSelectedCountry(selected)}
           />
         </div>
       </Header>

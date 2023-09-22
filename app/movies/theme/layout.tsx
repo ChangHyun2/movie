@@ -5,10 +5,5 @@ export default function MoviesLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <Header navigation />
-      {children}
-    </>
-  );
+  return <>{children}</>;
 }
