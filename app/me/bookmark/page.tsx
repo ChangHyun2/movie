@@ -38,6 +38,7 @@ export default function BookmarkPage() {
         >
           {movies.map((m) => (
             <li
+              key={m.Title + m.Year}
               className="relative"
               style={{ borderRadius: "6px", overflow: "hidden" }}
             >
