@@ -261,7 +261,7 @@ export default function KeywordList({
   return (
     <div>
       {keywordsLists.map((keywordList) => (
-        <section className="mb-10">
+        <section className="mb-10" key={keywordList.label}>
           <h3 className="flex items-center mx-4 semi18 mb-3">
             <span className="mr-1">
               <Image
