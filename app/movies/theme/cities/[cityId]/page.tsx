@@ -36,7 +36,7 @@ export default function CitiesMoviesPage({
   return (
     <>
       <Header navigation fixed>
-        <div className="flex justify-end my-2">
+        <div className="flex justify-end my-2 mx-4">
           <select onChange={handleChange} value={sortOption}>
             <option value="boxOffice">인기순</option>
             <option value="abc">가나다순</option>
@@ -52,9 +52,7 @@ export default function CitiesMoviesPage({
       </Header>
       <main className="pt-[164px]">
         <section>
-          <div className="h-[calc()]">
-            <MovieCardMdList movies={sortedMovies} />
-          </div>
+          <MovieCardMdList movies={sortedMovies} />
         </section>
       </main>
     </>

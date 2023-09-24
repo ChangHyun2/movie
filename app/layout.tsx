@@ -23,6 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="max-w-3xl mx-auto h-screen">
           {children}
+          <div className="pt-6"></div>
           <Footer />
         </div>
       </body>

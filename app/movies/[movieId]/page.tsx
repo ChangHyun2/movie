@@ -89,7 +89,7 @@ export default function MovieDetailPage({
             alt="sl"
           />
         </div>
-        <div className="text-neutral semi22">지역</div>
+        <div className="text-neutral semi22">영화 상세 정보</div>
         <div className="w-8 h-8"></div>
       </div>
       <section className="mb-3 relative m-4 mb-6">
