@@ -1,5 +1,6 @@
 "use client";
 
+import { themeColors } from "@/app/components/KeywordsList";
 import MobileListScroll from "@/app/components/MobileListScroll";
 import { movieDetails } from "@/data/movieDetails";
 import {
@@ -87,16 +88,26 @@ export default function MovieDetailPage({
         <section className="bg-[#F5F5F5] py-3 mb-6">
           <div className="mx-4 semi16 mb-2">이 영화의 키워드</div>
           <MobileListScroll>
-            {keywordEngs.map((kid: string) => (
-              <Link
-                key={kid}
-                href={`/movies/theme/keywords?keywordId=${
-                  (keywordEngsToKeywords as any)[kid].id
-                }`}
-              >
-                <div className="button mr-2">#{(keywordsKor as any)[kid]}</div>
-              </Link>
-            ))}
+            {keywordEngs.map((keng: string) => {
+              return (
+                <Link
+                  key={keng}
+                  href={`/movies/theme/keywords?keywordId=${
+                    (keywordEngsToKeywords as any)[keng].id
+                  }`}
+                >
+                  <div
+                    className="button mr-2"
+                    style={{
+                      borderColor: themeColors.find((k) => k.eng === keng)
+                        ?.color,
+                    }}
+                  >
+                    #{(keywordsKor as any)[keng]}
+                  </div>
+                </Link>
+              );
+            })}
           </MobileListScroll>
         </section>
       )}

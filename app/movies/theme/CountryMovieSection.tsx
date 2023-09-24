@@ -5,6 +5,7 @@ import CountryList, { CountryListProps } from "../../components/CountryList";
 import Link from "next/link";
 import MovieCardSmList from "../../components/MovieCardSmList";
 import { MovieCardProps } from "../../components/MovieCardMd";
+import Image from "next/image";
 
 type CountryMovieListSectionProps = {
   countries: CountryListProps["countries"];
@@ -26,8 +27,17 @@ export default function CountryMovieListSection({
   return (
     <section>
       <div className="mb-3 mx-4">
-        <Link href={`/movies/countries/${selectedCountry}`} className="semi18">
-          나라 둘러보기
+        <Link
+          href={`/movies/theme/countries/${selectedCountry}`}
+          className="semi18 flex items-center"
+        >
+          <span>나라 둘러보기</span>
+          <Image
+            src="/tevi/icon-chevron-right-22-line.svg"
+            alt="go to page"
+            width={22}
+            height={22}
+          />
         </Link>
       </div>
       <div className="mb-2">

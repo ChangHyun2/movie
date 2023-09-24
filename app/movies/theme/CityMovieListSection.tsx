@@ -5,6 +5,7 @@ import CityList, { CityListProps } from "../../components/CityList";
 import Link from "next/link";
 import MovieCardSmList from "../../components/MovieCardSmList";
 import { MovieCardProps } from "../../components/MovieCardMd";
+import Image from "next/image";
 
 type CityMovieListSectionProps = {
   cities: CityListProps["cities"];
@@ -24,8 +25,17 @@ export default function CityMovieListSection({
   return (
     <section>
       <div className="mb-3 mx-4">
-        <Link href={`/movies/cities/${selectedCity}`} className="semi18">
-          도시 둘러보기
+        <Link
+          href={`/movies/theme/cities/${selectedCity}`}
+          className="semi18 flex items-center"
+        >
+          <span>도시 둘러보기</span>
+          <Image
+            src="/tevi/icon-chevron-right-22-line.svg"
+            alt="go to page"
+            width={22}
+            height={22}
+          />
         </Link>
       </div>
       <div className="mb-2">

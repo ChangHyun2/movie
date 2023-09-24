@@ -124,7 +124,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  border: 1.5px solid black;
+  border: 1.5px solid;
 }
 
 .button-fill {
@@ -133,7 +133,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  border: 1.5px solid black;
+  border: 1.5px solid;
   background: red;
 }
 

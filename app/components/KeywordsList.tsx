@@ -246,15 +246,18 @@ export default function KeywordList({
                 <Link
                   key={keyword.id}
                   href={`/movies/theme/keywords?keywordId=${keyword.id}`}
-                  className="shrink-0 relative first:pl-4"
                 >
-                  <button
+                  <div
+                    style={{
+                      borderColor: themeColors.find((k) => k.id === keyword.id)
+                        ?.color,
+                    }}
                     className={`${
                       filterSet.has(keyword.id) ? "button-fill" : "button"
                     } mr-1`}
                   >
                     {keyword.kor}
-                  </button>
+                  </div>
                 </Link>
               );
             })}
