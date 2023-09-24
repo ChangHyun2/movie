@@ -1,16 +1,16 @@
-export type Tag = {
+export type Keyword = {
   id: string;
   kor: string;
   eng: string;
 };
 
-export type CityTag = {
+export type CityKeyword = {
   id: "e83bdcca-cf25-4da5-a8bf-49ef326b8838";
   movieId: "0f8d9060-8185-4a21-b314-f1ff98f7a1af";
-  tags: string[];
+  keywords: string[];
 };
 
-export type CityTags = CityTag[];
+export type CityKeywords = CityKeyword[];
 
 export type Rating = {
   Source: string;

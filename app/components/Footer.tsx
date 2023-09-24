@@ -12,6 +12,8 @@ export default function Footer() {
 
   const [, path1, path2] = path.split("/");
 
+  console.log({ path1, path2 });
+
   useEffect(() => {
     const scrollHandler = function (this: Window, e: Event): void {
       const prevPosition = prevPositionRef.current;
@@ -30,6 +32,11 @@ export default function Footer() {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, []);
 
+  const root = !path1
+    ? "/"
+    : path1 === "movies"
+    ? "/movies"
+    : "/" + path1 + "/" + path2;
   return (
     <footer>
       <ul
@@ -39,31 +46,37 @@ export default function Footer() {
       >
         {[
           {
-            icon: "🏠",
+            icon: "home",
             label: "홈",
             path: "/",
+            root: "/",
           },
           {
-            icon: "🏠",
+            icon: "thema",
             label: "테마보기",
             path: "/movies/theme/cities",
+            root: "/movies",
           },
           {
-            icon: "🏠",
+            icon: "bookmark",
             label: "북마크",
             path: "/me/bookmark",
+            root: "/me/bookmark",
           },
           {
-            icon: "🏠",
-            label: "마이페이지",
+            icon: "mypage",
+            label: "mypage",
             path: "/me/profile",
+            root: "/me/profile",
           },
-        ].map(({ icon, label, path }) => (
+        ].map(({ icon, label, path, root: tabRoot }) => (
           <li key={path}>
             <Link href={path}>
               <div className="flex flex-col items-center justify-center h-[50px]">
                 <Image
-                  src="/icon-bookmark-26.svg"
+                  src={`/tevi/icon-${icon}-26-${
+                    tabRoot === root ? "fill" : "line"
+                  }.svg`}
                   width={26}
                   height={26}
                   alt="logo"

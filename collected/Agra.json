@@ -2,7 +2,7 @@
   {
     "id": "6fec2f29-bf63-4af5-a60a-08f268a59f6a",
     "movieId": "fa9cf719-d414-402e-9e3e-1bca00ab36e0",
-    "tags": [
+    "keywords": [
       "touching",
       "heavy-hearted",
       "Satisfying",
@@ -15,7 +15,7 @@
   {
     "id": "666128f6-5850-4053-8768-3fd69be568cb",
     "movieId": "f5b9d6fb-8c53-4f05-90a1-138a44822b6c",
-    "tags": [
+    "keywords": [
       "touching",
       "immersive",
       "urban",
@@ -27,21 +27,21 @@
   {
     "id": "6fc8dcbc-2d59-44df-86e9-873672fc8e11",
     "movieId": "6ff9d41b-5b02-4737-a77d-7192c55c69a0",
-    "tags": ["urban", "touching", "immersive"]
+    "keywords": ["urban", "touching", "immersive"]
   },
   {
     "id": "be3baa2a-6df6-4f8b-a8b1-b85c8005a718",
     "movieId": "a0684d90-7c1f-45d4-a6ab-ac0e874f0c9a",
-    "tags": ["Tense", "urban", "music"]
+    "keywords": ["Tense", "urban", "music"]
   },
   {
     "id": "eaf42767-6f4b-47b2-9a26-cb8c1907d1dc",
     "movieId": "a8d6ba77-aad3-4a37-9ce0-c630ff6b111d",
-    "tags": ["leisurely", "touching", "twist", "independent film"]
+    "keywords": ["leisurely", "touching", "twist", "independent film"]
   },
   {
     "id": "e8c458fc-2799-43e2-84b5-523f7cdfa4ce",
     "movieId": "061a5436-4d7e-484a-94ca-d42f184d57dd",
-    "tags": ["Tense", "urban"]
+    "keywords": ["Tense", "urban"]
   }
 ]

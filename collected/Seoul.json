@@ -2,7 +2,7 @@
   {
     "id": "7e195dd9-62ea-4814-83b5-c843548afdd0",
     "movieId": "ea4e9d6a-b44e-47b7-bc1c-9a1dd828c9f8",
-    "tags": [
+    "keywords": [
       "immersive",
       "Tense",
       "period piece",
@@ -15,7 +15,7 @@
   {
     "id": "1266d1c2-af22-4923-9f08-d5609d0cc083",
     "movieId": "e7ff92c4-ae07-4506-b762-c7a78752dbb7",
-    "tags": [
+    "keywords": [
       "touching",
       "heavy-hearted",
       "Satisfying",
@@ -28,7 +28,7 @@
   {
     "id": "49ec2a89-ae8a-46ea-886b-a583b5104235",
     "movieId": "b663f338-8623-4e35-b063-8708f4e3a305",
-    "tags": [
+    "keywords": [
       "touching",
       "fluttering",
       "urban",
@@ -39,7 +39,7 @@
   {
     "id": "674f7319-ecf6-4b0f-b97a-3a4c85bc0014",
     "movieId": "d80618ae-16db-4eab-96d8-a7636c9dc1f5",
-    "tags": [
+    "keywords": [
       "Tense",
       "touching",
       "heavy-hearted",
@@ -52,7 +52,7 @@
   {
     "id": "6e7f50b6-6efc-4067-b1e2-a58273f067d4",
     "movieId": "5c3a2039-7641-48fd-9984-00be3f770256",
-    "tags": [
+    "keywords": [
       "Tense",
       "korean loved",
       "film festival award",
@@ -64,17 +64,22 @@
   {
     "id": "d4c5a677-6cb9-4122-a565-58a2ff70ea1e",
     "movieId": "5cb4c3a5-4111-487a-b710-f3b68ca19865",
-    "tags": ["Tense", "korean loved", "film festival award", "independent film"]
+    "keywords": [
+      "Tense",
+      "korean loved",
+      "film festival award",
+      "independent film"
+    ]
   },
   {
     "id": "03d6d911-9378-4de9-8bc6-f0f50f90715e",
     "movieId": "2027b850-ef0d-4c4e-9962-6404481f0472",
-    "tags": ["Tense", "period piece", "korean loved", "film festival award"]
+    "keywords": ["Tense", "period piece", "korean loved", "film festival award"]
   },
   {
     "id": "edb1d28f-53ab-484a-a07e-b9fe18c2b024",
     "movieId": "679137c2-2fce-4e4f-8058-0b95308a3de6",
-    "tags": [
+    "keywords": [
       "urban",
       "Tense",
       "heavy-hearted",
@@ -86,7 +91,7 @@
   {
     "id": "e83bdcca-cf25-4da5-a8bf-49ef326b8838",
     "movieId": "0f8d9060-8185-4a21-b314-f1ff98f7a1af",
-    "tags": [
+    "keywords": [
       "music",
       "touching",
       "heavy-hearted",
@@ -101,12 +106,12 @@
   {
     "id": "8f89b641-79a1-47a5-9158-4a02de045aaf",
     "movieId": "6ddbbce3-7ba2-4adb-84a6-2729f847436e",
-    "tags": ["touching", "heavy-hearted", "growth", "korean loved"]
+    "keywords": ["touching", "heavy-hearted", "growth", "korean loved"]
   },
   {
     "id": "cb7bbc1a-fe41-4849-8b8c-664bd4aa5957",
     "movieId": "99b4eb1b-1da1-4e89-bc6d-088b23a72baa",
-    "tags": [
+    "keywords": [
       "heavy-hearted",
       "touching",
       "immersive",
@@ -119,7 +124,7 @@
   {
     "id": "7a67b0b3-bdcd-4329-8394-2babd8817891",
     "movieId": "71204a8d-cb60-4c42-8b44-fdfd7b8a1aa2",
-    "tags": [
+    "keywords": [
       "touching",
       "leisurely",
       "immersive",
@@ -131,27 +136,27 @@
   {
     "id": "78dee528-2f45-4341-b44c-88a1aac63905",
     "movieId": "fec8c7b1-8bde-4332-84e6-ee4a264ecadd",
-    "tags": ["Tense", "twist", "korean loved", "film festival award"]
+    "keywords": ["Tense", "twist", "korean loved", "film festival award"]
   },
   {
     "id": "b11d54cf-acfa-4fd0-b6cc-b226bdc6317e",
     "movieId": "3cc93c8e-a7c6-47cf-a33b-5a4e21109a09",
-    "tags": ["Tense", "immersive", "film festival award", "korean loved"]
+    "keywords": ["Tense", "immersive", "film festival award", "korean loved"]
   },
   {
     "id": "3ec29fc5-f30c-49f1-b6f9-18437751d3ff",
     "movieId": "b667116d-40f0-4202-b442-b3f640f57e5d",
-    "tags": ["Tense", "period piece"]
+    "keywords": ["Tense", "period piece"]
   },
   {
     "id": "356e5e43-e857-419b-aadf-0fb5a35b08a3",
     "movieId": "56fd19cd-0d2e-4f61-8d0c-ffdf1ba72377",
-    "tags": ["period piece", "korean loved", "film festival award"]
+    "keywords": ["period piece", "korean loved", "film festival award"]
   },
   {
     "id": "ab461181-f4c9-4fac-889a-18110710943f",
     "movieId": "5b3009ee-a8af-4b4e-b71f-9b16038281bd",
-    "tags": [
+    "keywords": [
       "winter",
       "heavy-hearted",
       "Tense",
@@ -163,7 +168,7 @@
   {
     "id": "172cece6-9ce3-43d1-97be-2797e07eca85",
     "movieId": "ae83b43e-d5c7-486b-8afc-b6b319e6ea4f",
-    "tags": [
+    "keywords": [
       "Tense",
       "immersive",
       "twist",
@@ -175,22 +180,22 @@
   {
     "id": "ce2cd6bb-a122-4ccc-af10-7b6672521bd6",
     "movieId": "205c7f4e-6d32-4fc1-8313-bcbccdc74ee2",
-    "tags": ["Tense", "twist", "urban", "korean loved", "independent film"]
+    "keywords": ["Tense", "twist", "urban", "korean loved", "independent film"]
   },
   {
     "id": "86842e9e-0574-460d-81d0-382d4e47f4a6",
     "movieId": "86850b75-f93a-44cd-a689-c7450f839497",
-    "tags": ["Tense", "urban", "korean loved"]
+    "keywords": ["Tense", "urban", "korean loved"]
   },
   {
     "id": "e9eb1483-6a80-4d35-ad39-c28fc3eb34e1",
     "movieId": "3da4cee8-5e6d-426e-93cf-c4d956b6edc2",
-    "tags": ["urban", "korean loved", "film festival award"]
+    "keywords": ["urban", "korean loved", "film festival award"]
   },
   {
     "id": "58419624-8de5-4093-b12e-cd416f4f3cbf",
     "movieId": "4fc24683-f032-4d0b-8235-5af8cc8c96f9",
-    "tags": [
+    "keywords": [
       "touching",
       "heavy-hearted",
       "Satisfying",
@@ -204,12 +209,12 @@
   {
     "id": "dd44bf70-d86d-4cff-87d9-a0dffcba9691",
     "movieId": "ac0d7aed-ab73-473b-930c-de1c58db5dbe",
-    "tags": ["winter", "snowy", "Tense", "immersive"]
+    "keywords": ["winter", "snowy", "Tense", "immersive"]
   },
   {
     "id": "88932568-7ec6-4eb2-b3a0-29d0077f9e1f",
     "movieId": "5b717617-b09a-4785-8128-45376fb6b239",
-    "tags": [
+    "keywords": [
       "Tense",
       "touching",
       "heavy-hearted",
@@ -220,12 +225,12 @@
   {
     "id": "fe662e69-b9c0-48f7-a874-3060e98b8bda",
     "movieId": "c1a31f46-4c58-4c0d-a3de-146b4f3e800a",
-    "tags": ["touching", "heavy-hearted", "korean loved"]
+    "keywords": ["touching", "heavy-hearted", "korean loved"]
   },
   {
     "id": "471d9438-d7a9-4f8c-8138-3142caee38f1",
     "movieId": "77918828-02ed-45df-8300-ae18097b3144",
-    "tags": [
+    "keywords": [
       "immersive",
       "touching",
       "urban",
@@ -237,12 +242,12 @@
   {
     "id": "3a68753d-3f14-480a-81d3-11dbee3f2b5e",
     "movieId": "0d090d1e-d9f0-4f2d-a7ed-8a305bd8107b",
-    "tags": ["Tense", "immersive", "twist", "urban", "independent film"]
+    "keywords": ["Tense", "immersive", "twist", "urban", "independent film"]
   },
   {
     "id": "914484f9-a7e1-4842-8016-5a93e256ed99",
     "movieId": "75e5629e-1b56-4f05-80ab-47bb8136ccd4",
-    "tags": [
+    "keywords": [
       "heavy-hearted",
       "immersive",
       "growth",

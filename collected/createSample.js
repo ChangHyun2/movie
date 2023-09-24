@@ -1,13 +1,13 @@
-const tags = require("./Seoul.json");
+const keywords = require("./Seoul.json");
 const movies = require("../data/chatgpt/citiesmovies/Seoul.json");
 
 movies.movies
   .map((m) => {
-    const tag = tags.find((t) => t.movieId === m.id);
+    const tag = keywords.find((t) => t.movieId === m.id);
 
     return {
       title: m.title,
-      tag: tag.tags,
+      tag: tag.keywords,
     };
   })
   .forEach(({ title, tag }, idx) => {

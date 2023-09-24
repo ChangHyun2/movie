@@ -28,7 +28,7 @@ export default function Header({
       </div>
       {navigation && (
         <ul className="grid grid-cols-3 h-9">
-          <li className="relative flex items-center justify-center">
+          <li className="relative flex items-center justify-start ml-6">
             <span className="semi15" style={{ fontWeight: 400 }}>
               <Link href="/movies/theme/cities">도시별 보기</Link>
             </span>
@@ -44,7 +44,7 @@ export default function Header({
               <div className="absolute bottom-0 left-0 w-full h-[4px] bg-[#1c1c1c]"></div>
             )}
           </li>
-          <li className="relative flex items-center justify-center">
+          <li className="relative flex items-center justify-end mr-6">
             <span className="semi15" style={{ fontWeight: 400 }}>
               <Link href="/movies/theme/keywords">테마 키워드</Link>
             </span>

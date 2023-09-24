@@ -124,7 +124,17 @@
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  border: 1.5px solid #e29970;
+  border: 1.5px solid black;
+}
+
+.button-fill {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  border: 1.5px solid black;
+  background: red;
 }
 
 .no-scrollbar {
@@ -150,4 +160,86 @@
 
 .footer-shadow {
   box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bg-primary100 {
+  background: #fff4ec;
+}
+
+.bg-primary300 {
+  background: #ffc092;
+}
+
+.bg-primary400 {
+  background: #ff994f;
+}
+
+.bg-500-orange {
+  background: #ff6b00;
+}
+
+.bg-neutral200 {
+  background: #f5f5f5;
+}
+
+.bg-neutral300 {
+  background: #ddd;
+}
+.bg-neutral350 {
+  background: #d9d9d9;
+}
+.bg-neutral400 {
+  background: #b9b9b9;
+}
+
+.text-neutral {
+  color: #1c1c1c;
+}
+
+.btn {
+  padding: 16px 24px;
+}
+
+.btn-primary {
+  background: #ff994f;
+  padding: 16px 24px;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: #ff6b00;
+}
+.btn-primary:disabled {
+  background: #f5f5f5;
+  color: #7c7979;
+}
+
+.btn-secondary {
+  background: white;
+  border: 1px solid #ff6b00;
+  padding: 16px 24px;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #1c1c1c;
+  border-radius: 8px;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background: #fff4ec;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+.btn-secondary:disabled {
+  border: 1px solid #7c7979;
+  color: #7c7979;
+  background: white;
 }

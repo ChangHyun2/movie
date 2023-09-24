@@ -2,7 +2,13 @@
 
 import MobileListScroll from "@/app/components/MobileListScroll";
 import { movieDetails } from "@/data/movieDetails";
+import {
+  keywordEngsToKeywords,
+  keywordsKor,
+  movieIdsKeowrdEngs,
+} from "@/data/ui";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function MovieDetailPage({
@@ -28,6 +34,8 @@ export default function MovieDetailPage({
     Writer,
   } = movieDetail;
   const rating = Ratings[0].Value;
+
+  const keywordEngs = (movieIdsKeowrdEngs as any)[movieId];
 
   return (
     <>
@@ -75,14 +83,23 @@ export default function MovieDetailPage({
         </button>
       </section>
 
-      <section className="bg-[rgba(255,107,0,0.07)] py-3 mb-6">
-        <div className="mx-4 semi16 mb-2">이 영화의 키워드</div>
-        <MobileListScroll>
-          <div>#반전이 있는</div>
-          <div>#한국인이 사랑한</div>
-          <div>#성공스토리</div>
-        </MobileListScroll>
-      </section>
+      {keywordEngs && (
+        <section className="bg-[#F5F5F5] py-3 mb-6">
+          <div className="mx-4 semi16 mb-2">이 영화의 키워드</div>
+          <MobileListScroll>
+            {keywordEngs.map((kid: string) => (
+              <Link
+                key={kid}
+                href={`/movies/theme/keywords?keywordId=${
+                  (keywordEngsToKeywords as any)[kid].id
+                }`}
+              >
+                <div className="button mr-2">#{(keywordsKor as any)[kid]}</div>
+              </Link>
+            ))}
+          </MobileListScroll>
+        </section>
+      )}
 
       <section>
         <div className="mx-4 bold16 mb-2">작품 정보</div>
