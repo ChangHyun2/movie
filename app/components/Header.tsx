@@ -17,7 +17,11 @@ export default function Header({
   const [, , , type] = path.split("/");
 
   return (
-    <header className={fixed ? "fixed top-0 z-10 w-full bg-white" : undefined}>
+    <header
+      className={
+        fixed ? "fixed top-0 z-10 w-full bg-white max-w-3xl" : undefined
+      }
+    >
       <div className="h-[56px] flex justify-center items-center">
         <h1 className="hidden">
           <span>TEVI</span>
