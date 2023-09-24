@@ -3,31 +3,7 @@ import { keywords as keywordsJson } from "@/data/ui";
 import Link from "next/link";
 import { Keyword } from "../types/crawler";
 import MobileListScroll from "./MobileListScroll";
-
-type keyword = {
-  id: string;
-  kor: string;
-};
-
-const keywords: keyword[] = keywordsJson.map(({ id, kor }: any) => ({
-  id,
-  kor,
-}));
-
-const threeKeywordsList: keyword[][] = [[]];
-
-keywords.forEach((keyword) => {
-  const stack = threeKeywordsList.pop();
-  if (!stack) return;
-
-  if (stack.length === 3) {
-    threeKeywordsList.push(stack);
-    threeKeywordsList.push([keyword]);
-  } else {
-    stack.push(keyword);
-    threeKeywordsList.push(stack);
-  }
-});
+import Image from "next/image";
 
 export const themeColors = [
   {
@@ -206,6 +182,73 @@ export const themeColors = [
   },
 ];
 
+type keyword = {
+  id: string;
+  kor: string;
+};
+
+const keywords: keyword[] = keywordsJson.map(({ id, kor }: any) => ({
+  id,
+  kor,
+}));
+
+const keywordsLists: {
+  label: string;
+  keywordsList: keyword[][];
+  color: string;
+  icon: string;
+}[] = [
+  {
+    label: "영화 분위기",
+    keywordsList: [[]],
+    color: "#69FF81",
+    icon: "영화분위기",
+  },
+  {
+    label: "시간 & 시대적 배경",
+    keywordsList: [[]],
+    color: "#E29970",
+    icon: "시간시대적배경",
+  },
+  {
+    label: "영화에서 느껴지는 감정",
+    keywordsList: [[]],
+    color: "#FF6984",
+    icon: "영화감정",
+  },
+  {
+    label: "주요 서사 관련",
+    keywordsList: [[]],
+    color: "#69DBFF",
+    icon: "서사",
+  },
+  {
+    label: "영화 특이사항",
+    keywordsList: [[]],
+    color: "#CF69FF",
+    icon: "영화특이사항",
+  },
+];
+
+keywords.forEach((keyword) => {
+  const themeColor = themeColors.find((k) => k.id === keyword.id)?.color;
+  const target = keywordsLists.find((k) => k.color === themeColor);
+
+  const threeKeywordsList = target?.keywordsList;
+  if (!threeKeywordsList) return;
+
+  const stack = threeKeywordsList.pop();
+  if (!stack) return;
+
+  if (stack.length === 3) {
+    threeKeywordsList.push(stack);
+    threeKeywordsList.push([keyword]);
+  } else {
+    stack.push(keyword);
+    threeKeywordsList.push(stack);
+  }
+});
+
 export default function KeywordList({
   filter,
   toggleFilter,
@@ -217,53 +260,71 @@ export default function KeywordList({
 
   return (
     <div>
-      {threeKeywordsList.map((threeKeywords, idx) => {
-        return (
-          <MobileListScroll key={idx} className="mb-3">
-            {threeKeywords.map((keyword) => {
-              const color = themeColors.find((k) => k.id === keyword.id)?.color;
+      {keywordsLists.map((keywordList) => (
+        <section className="mb-10">
+          <h3 className="flex items-center mx-4 semi18 mb-3">
+            <span className="mr-1">
+              <Image
+                src={`/tevi/icon-${keywordList.icon}.svg`}
+                alt="icon"
+                width={20}
+                height={20}
+              />
+            </span>
+            <span>{keywordList.label}</span>
+          </h3>
+          {keywordList.keywordsList.map((threeKeywords, idx) => {
+            return (
+              <MobileListScroll key={idx} className="mb-3">
+                {threeKeywords.map((keyword) => {
+                  const color = themeColors.find(
+                    (k) => k.id === keyword.id
+                  )?.color;
 
-              return filter ? (
-                <button
-                  key={keyword.id}
-                  style={{
-                    background: filterSet.has(keyword.id) ? color : "white",
-                    border: `1px solid ${color}`,
-                    borderRadius: "32px",
-                  }}
-                  className="py-2 px-6 mr-1 "
-                  onClick={
-                    toggleFilter
-                      ? () => {
-                          toggleFilter(keyword.id);
-                        }
-                      : undefined
-                  }
-                >
-                  {keyword.kor}
-                </button>
-              ) : (
-                <Link
-                  key={keyword.id}
-                  href={`/movies/theme/keywords?keywordId=${keyword.id}`}
-                >
-                  <div
-                    style={{
-                      borderColor: themeColors.find((k) => k.id === keyword.id)
-                        ?.color,
-                    }}
-                    className={`${
-                      filterSet.has(keyword.id) ? "button-fill" : "button"
-                    } mr-1`}
-                  >
-                    {keyword.kor}
-                  </div>
-                </Link>
-              );
-            })}
-          </MobileListScroll>
-        );
-      })}
+                  return filter ? (
+                    <button
+                      key={keyword.id}
+                      style={{
+                        background: filterSet.has(keyword.id) ? color : "white",
+                        border: `1px solid ${color}`,
+                        borderRadius: "32px",
+                      }}
+                      className="py-2 px-6 mr-1 "
+                      onClick={
+                        toggleFilter
+                          ? () => {
+                              toggleFilter(keyword.id);
+                            }
+                          : undefined
+                      }
+                    >
+                      {keyword.kor}
+                    </button>
+                  ) : (
+                    <Link
+                      key={keyword.id}
+                      href={`/movies/theme/keywords?keywordId=${keyword.id}`}
+                    >
+                      <div
+                        style={{
+                          borderColor: themeColors.find(
+                            (k) => k.id === keyword.id
+                          )?.color,
+                        }}
+                        className={`${
+                          filterSet.has(keyword.id) ? "button-fill" : "button"
+                        } mr-1`}
+                      >
+                        {keyword.kor}
+                      </div>
+                    </Link>
+                  );
+                })}
+              </MobileListScroll>
+            );
+          })}
+        </section>
+      ))}
     </div>
   );
 }

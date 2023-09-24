@@ -50,9 +50,9 @@ export default function KeywordsCategoryModalPage({
           />
         </div>
         <div className="text-neutral semi22">키워드 카테고리</div>
-        <div></div>
+        <div className="w-32 h-32"></div>
       </div>
-      <div className="relative mb-5 flex-1">
+      <div className="relative mb-5 flex-1 overflow-scroll">
         <KeywordList filter={filter} toggleFilter={toggleFilter} />
       </div>
       <div className="w-full flex px-4 py-2 border-t-2">
@@ -69,7 +69,7 @@ export default function KeywordsCategoryModalPage({
         </button>
         <button
           className="btn-primary flex-1"
-          style={{ background: "#FF6B00" }}
+          style={{ background: "#FF6B00", color: "white" }}
           disabled={filter.length === 0}
         >
           키워드 보기

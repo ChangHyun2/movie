@@ -4,10 +4,13 @@ import { MovieDetail } from "@/app/types/crawler";
 import { movieStorage } from "@/app/utils/movieStorage";
 import { movieDetails } from "@/data/movieDetails";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function BookmarkPage() {
-  const [movies, setMovies] = useState<MovieDetail[]>([]);
+  const [movies, setMovies] = useState<{ id: string; detail: MovieDetail }[]>(
+    []
+  );
 
   useEffect(() => {
     const bookmarks = movieStorage.get("bookmarks");
@@ -19,7 +22,12 @@ export default function BookmarkPage() {
       }
     });
 
-    const movies = movieIds.map((mid) => movieDetails[mid]);
+    const movies = movieIds.map((mid) => ({
+      id: mid,
+      detail: movieDetails[mid],
+    }));
+
+    console.log(movies);
     setMovies(movies);
   }, []);
 
@@ -38,11 +46,13 @@ export default function BookmarkPage() {
         >
           {movies.map((m) => (
             <li
-              key={m.Title + m.Year}
+              key={m.detail.Title + m.detail.Year}
               className="relative"
               style={{ borderRadius: "6px", overflow: "hidden" }}
             >
-              <Image src={m.Poster} alt={m.Title} fill />
+              <Link href={`/movies/${m.id}`}>
+                <Image src={m.detail.Poster} alt={m.detail.Title} fill />
+              </Link>
             </li>
           ))}
         </ul>
