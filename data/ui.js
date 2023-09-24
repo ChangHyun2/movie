@@ -6,6 +6,7 @@ import movieDetails from "@/data/omdb/movieDetails.json";
 import keywordsJson from "@/data/keywords.json";
 import keywordsMovieIds from "@/data/map/keywordsMovieIds.json";
 import movieKeywordsJson from "@/data/movieKeywords/movieKeywords.json";
+import moviePlots from "@/data/moviePlots.json";
 
 const movieIdToMovieSummary = (movieId) => {
   const movieDetail = movieDetails[movieId];
@@ -79,6 +80,8 @@ export const keywords = keywordsJson
     return { id, kor };
   })
   .filter(Boolean);
+
+export const moviePlotsKor = moviePlots;
 
 export const keywordsKor = keywordsJson.reduce((acc, k) => {
   acc[k.eng] = k.kor;

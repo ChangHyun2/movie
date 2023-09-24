@@ -40,7 +40,7 @@ export default function Footer() {
   return (
     <footer>
       <ul
-        className={`fixed w-full bottom-0 left-0 h-[50px] grid grid-cols-4 footer-shadow bg-white medium9 transition ${
+        className={`fixed w-full bottom-0 left-0 h-[50px] grid grid-cols-3 footer-shadow bg-white medium9 transition ${
           dir === "down" ? `translate-y-50px` : ""
         }`}
       >
@@ -63,12 +63,12 @@ export default function Footer() {
             path: "/me/bookmark",
             root: "/me/bookmark",
           },
-          {
-            icon: "mypage",
-            label: "mypage",
-            path: "/me/profile",
-            root: "/me/profile",
-          },
+          // {
+          //   icon: "mypage",
+          //   label: "mypage",
+          //   path: "/me/profile",
+          //   root: "/me/profile",
+          // },
         ].map(({ icon, label, path, root: tabRoot }) => (
           <li key={path}>
             <Link href={path}>
